@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "dbhotelandre";
+$dbname = "dbhotel";
 $conn = mysqli_connect($servername, $username, $password, $dbname);
     if (!$conn) {
     die('connection Failed : '. mysqli_connect_error());
@@ -50,4 +50,5 @@ if (!$query){
         </table>";
         mysqli_free_result($query);
         mysqli_close($conn);
+
 ?>
