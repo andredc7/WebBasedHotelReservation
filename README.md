@@ -72,17 +72,14 @@ How to Run
 3. Import the MySQL database (dbhotel)
 4. Start Apache & MySQL
 5. Open the project in the browser:
-http://localhost/hotel-reservation-system/
+http://localhost/andredc
 
 How to Run
 
-Clone or download the repository
-
-Move the folder into htdocs (XAMPP)
-
-Import the MySQL database (dbhotel)
-
-Start Apache & MySQL
+1. Clone or download the repository
+2. Move the folder into htdocs (XAMPP)
+3. Import the MySQL database (dbhotel)
+4. Start Apache & MySQL
 
 Open the project in the browser:
 localhost/andredc/
