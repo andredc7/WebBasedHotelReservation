@@ -147,10 +147,10 @@ Tabel ini menunjukkan daftar jenis kamar yang dapat dipesan oleh tamu.
 | Name        | Phone Number   | Address   | Email | Check-In   | Check-Out  | Room Type      |
 |------------ |---------------|----------|-------|------------|------------|----------------|
 | Andre       | 085678910987  | Semarang | ...   | 2022-12-27 | 2022-12-30 | Standard Room  |
-| Oka         | 081234567898  | Solo     | ...   | 2022-12-30 | 2023-01-01 | Superior Room  |
-| Gerry       | 082123456789  | Ungaran  | ...   | 2022-12-31 | 2023-01-03 | Deluxe Room    |
-| Marchelino  | 08898765432   | Jepara   | ...   | 2023-01-04 | 2023-01-04 | Twin Room      |
-| Devi        | 085876543210  | Ambarawa | ...   | 2022-12-29 | 2023-01-02 | Single Room    |
+| Steven         | 081234567898  | Yogyakarta     | ...   | 2022-12-30 | 2023-01-01 | Superior Room  |
+| Rizky       | 082123456789  | Tangerang  | ...   | 2022-12-31 | 2023-01-03 | Deluxe Room    |
+| Yusuf  | 08898765432   | Surabaya   | ...   | 2023-01-04 | 2023-01-04 | Twin Room      |
+| Devi        | 085876543210  | Jakarta | ...   | 2022-12-29 | 2023-01-02 | Single Room    |
 
 
 Data ini merupakan hasil akhir dari proses reservasi yang sudah dilakukan oleh tamu hotel.
