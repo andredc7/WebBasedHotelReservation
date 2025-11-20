@@ -1,5 +1,94 @@
 # WebBasedHotelReservation
-Implementation and Results
+Hotel Room Reservation System (Web-Based)
+
+A web-based hotel room reservation system built using PHP and MySQL.
+This system allows hotel staff or users to manage room availability, register accounts, create reservations, update bookings, and handle guest information in a simple and structured interface.
+
+This project was developed as part of a final thesis at the Faculty of Computer Science, Soegijapranata Catholic University.
+
+Features
+1. User Registration (Sign Up)
+
+Users can create accounts by entering their personal information.
+The system checks for duplicate usernames or emails before saving the data.
+
+2. Login System
+
+Users log in using their registered username or email and password.
+Invalid credentials will trigger a notification message.
+
+3. Room Management
+
+Admins can add new room types and facilities.
+A validation process prevents duplicate room entries.
+
+4. Room Reservation
+
+Guests can input personal details, select check-in and check-out dates, and choose their preferred room type.
+The system checks room availability and alerts users if the selected date is fully booked.
+
+5. Update & Reschedule
+
+Existing reservations can be edited, including changes to guest data, dates, or room type.
+Successful updates will display a confirmation message.
+
+6. Delete Reservation
+
+Reservations can be canceled based on their ID.
+After deletion, the system confirms that the reservation has been removed.
+
+System Output
+Room Types Example
+
+Standard Room
+
+Superior Room
+
+Deluxe Room
+
+Twin Room
+
+Single Room
+
+Each room includes facilities such as AC, WiFi, TV, toiletries, mineral water, and additional amenities depending on the room type.
+
+Guest Reservation Data
+
+The system stores guest names, phone numbers, addresses, emails, check-in/out dates, and selected room types.
+This information helps staff monitor room usage and reservation schedules.
+
+Technology Stack
+1. Component	Technology
+2. Frontend	HTML, CSS
+3. Backend	PHP
+4. Database	MySQL
+5. Server	Localhost / XAMPP
+6. Additional	Basic Authentication & Form Validation
+
+How to Run
+
+1. Clone or download the repository
+2. Move the folder into htdocs (XAMPP)
+3. Import the MySQL database (dbhotel)
+4. Start Apache & MySQL
+5. Open the project in the browser:
+http://localhost/hotel-reservation-system/
+
+How to Run
+
+Clone or download the repository
+
+Move the folder into htdocs (XAMPP)
+
+Import the MySQL database (dbhotel)
+
+Start Apache & MySQL
+
+Open the project in the browser:
+localhost/andredc/
+
+**Implementation and Results**
+
 5.1 Implementation
 
 Pada tahap ini, proses implementasi sistem reservasi kamar hotel dilakukan menggunakan bahasa pemrograman PHP serta database MySQL yang dijalankan pada lingkungan lokal (localhost). Pengujian dilakukan pada beberapa fungsi utama yang meliputi pembuatan akun, proses masuk, pengelolaan informasi kamar, pengisian form pemesanan, pembaruan jadwal reservasi, hingga penghapusan data pemesanan.
