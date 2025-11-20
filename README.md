@@ -132,22 +132,26 @@ Setelah proses penghapusan selesai, sistem menampilkan pesan bahwa data pemesana
 
 5.2 Results
 5.2.1 Data Room Type
-No	Room Type	Facilities
-1	Standard Room	AC, TV, Wifi, Toiletries, Free Mineral Water, 1 Big Bed
-2	Superior Room	AC, TV, Wifi, Toiletries, Free Mineral Water, 2 Big Beds
-3	Deluxe Room	AC, TV, Wifi, Toiletries, Free Mineral Water, Free Tea/Coffee, Refrigerator, 1 Big Bed
-4	Twin Room	AC, TV, Wifi, Toiletries, Free Mineral Water, 2 Separate Beds
-5	Single Room	AC, TV, Wifi, Toiletries, Free Mineral Water, Single Bed
+| No | Room Type     | Facilities                                                                             |
+| -- | ------------- | -------------------------------------------------------------------------------------- |
+| 1  | Standard Room | AC, TV, Wifi, Toiletries, Free Mineral Water, 1 Big Bed                                |
+| 2  | Superior Room | AC, TV, Wifi, Toiletries, Free Mineral Water, 2 Big Beds                               |
+| 3  | Deluxe Room   | AC, TV, Wifi, Toiletries, Free Mineral Water, Free Tea/Coffee, Refrigerator, 1 Big Bed |
+| 4  | Twin Room     | AC, TV, Wifi, Toiletries, Free Mineral Water, 2 Separate Beds                          |
+| 5  | Single Room   | AC, TV, Wifi, Toiletries, Free Mineral Water, Single Bed                               |
 
 Tabel ini menunjukkan daftar jenis kamar yang dapat dipesan oleh tamu.
 
 5.2.2 Guest Reservation Data
-Name	Phone Number	Address	Email	Check-In	Check-Out	Room Type
-Andre	085740753047	Semarang	...	2022-12-27	2022-12-30	Standard Room
-Oka	081229187778	Solo	...	2022-12-30	2023-01-01	Superior Room
-Gerry	082136830415	Ungaran	...	2022-12-31	2023-01-03	Deluxe Room
-Marchelino	08893311606	Jepara	...	2023-01-04	2023-01-04	Twin Room
-Devi	085870550021	Ambarawa	...	2022-12-29	2023-01-02	Single Room
+## Guest Reservation Data
+| Name        | Phone Number   | Address   | Email | Check-In   | Check-Out  | Room Type      |
+|------------ |---------------|----------|-------|------------|------------|----------------|
+| Andre       | 085740753047  | Semarang | ...   | 2022-12-27 | 2022-12-30 | Standard Room  |
+| Oka         | 081229187778  | Solo     | ...   | 2022-12-30 | 2023-01-01 | Superior Room  |
+| Gerry       | 082136830415  | Ungaran  | ...   | 2022-12-31 | 2023-01-03 | Deluxe Room    |
+| Marchelino  | 08893311606   | Jepara   | ...   | 2023-01-04 | 2023-01-04 | Twin Room      |
+| Devi        | 085870550021  | Ambarawa | ...   | 2022-12-29 | 2023-01-02 | Single Room    |
+
 
 Data ini merupakan hasil akhir dari proses reservasi yang sudah dilakukan oleh tamu hotel.
 
