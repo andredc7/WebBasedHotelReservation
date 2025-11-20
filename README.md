@@ -72,7 +72,7 @@ How to Run
 3. Import the MySQL database (dbhotel)
 4. Start Apache & MySQL
 5. Open the project in the browser:
-http://localhost/andredc
+http://localhost/hotel
 
 How to Run
 
@@ -82,7 +82,7 @@ How to Run
 4. Start Apache & MySQL
 
 Open the project in the browser:
-localhost/andredc/
+localhost/hotel/
 
 **Implementation and Results**
 
