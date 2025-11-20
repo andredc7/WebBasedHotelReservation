@@ -5,25 +5,30 @@ Implementation and Results
 Pada tahap ini, proses implementasi sistem reservasi kamar hotel dilakukan menggunakan bahasa pemrograman PHP serta database MySQL yang dijalankan pada lingkungan lokal (localhost). Pengujian dilakukan pada beberapa fungsi utama yang meliputi pembuatan akun, proses masuk, pengelolaan informasi kamar, pengisian form pemesanan, pembaruan jadwal reservasi, hingga penghapusan data pemesanan.
 
 5.1.1 Sign Up
+
 <img width="445" height="158" alt="image" src="https://github.com/user-attachments/assets/c7472ad4-b3e4-447c-b217-8eb1b2728d32" />
 
 Fitur Sign Up digunakan untuk membuat akun baru. Pengguna mengisi data seperti nama, username, nomor telepon, alamat, email, dan password.
 Sistem juga melakukan validasi apakah username atau email sudah terdaftar sebelumnya. Jika lolos validasi, data akan disimpan ke database.
 
 5.1.2 Login 
+
 <img width="390" height="185" alt="image" src="https://github.com/user-attachments/assets/d5b80b07-82bd-4cee-9331-ebfc0db8866a" />
 
 Fitur Login berfungsi untuk memverifikasi pengguna yang ingin mengakses sistem menggunakan username atau email beserta password yang telah dibuat sebelumnya.
 Apabila kombinasi data tidak cocok atau belum terdaftar, sistem akan menampilkan pesan kesalahan. Sebaliknya, jika valid, pengguna akan diarahkan menuju halaman Home.
+
 <img width="410" height="194" alt="image" src="https://github.com/user-attachments/assets/ace4816d-72a1-4837-a348-dba763088c8d" />
 
 5.1.3 Make a Data Room 
+
 <img width="412" height="195" alt="image" src="https://github.com/user-attachments/assets/be784a8d-bd6c-4c19-a092-cae36806191f" />
 
 Menu ini digunakan untuk menambahkan jenis kamar dan fasilitas masing-masing.
 Sebelum data baru dimasukkan, sistem melakukan pengecekan apakah tipe kamar dengan fasilitas yang sama sudah tercatat. Jika sudah ada, sistem akan memberikan notifikasi bahwa data tersebut telah digunakan.
 
 5.1.4 Reservation 
+
 <img width="408" height="194" alt="image" src="https://github.com/user-attachments/assets/c897a229-3de9-4e23-a9e7-aaa500ff1119" />
 
 Formulir reservasi digunakan untuk menginput informasi tamu, yaitu nama, nomor telepon, alamat, email, tanggal check-in, tanggal check-out, serta pilihan jenis kamar.
