@@ -1,5 +1,5 @@
 <?php
-$conn = mysql_connect("localhost", "root", "", "dbhotelandre");
+$conn = mysql_connect("localhost", "root", "", "dbhotel");
 
 if($conn){
     echo "Connect Successful";
@@ -8,4 +8,5 @@ if($conn){
     {
         die(mysql_error($conn));
     }
+
 ?>
